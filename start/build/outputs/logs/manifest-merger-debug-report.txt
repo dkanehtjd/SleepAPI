@@ -1,0 +1,329 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+MERGED from [androidx.room:room-ktx:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/20918e4ae59748a07db0f67ccfc46791/transformed/jetified-room-ktx-2.2.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a06be81b7d98fd5879194bac38e4d58d/transformed/jetified-activity-ktx-1.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0d691e40805b99b7d0aad8189be53dc8/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0068ae321907772872a48942d01c722e/transformed/jetified-lifecycle-runtime-ktx-2.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b70c947703268f2ce5656e182f78add8/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-alpha06] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/2f4b540805b02794143ee2fdf1abf48c/transformed/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0-alpha06] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/4c96c2f8a87a4767b047d02c6bf73fcb/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/5a03b4ceb0158bcfed6223eab008c9f1/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/90c6f152b805287b0b39ace95fbff871/transformed/jetified-savedstate-ktx-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/53f95204574636e435e0edec2ca004b2/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bce47b76883d92c6f197500f78e33988/transformed/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0568fdc365387ef5ddce054d68bccbce/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/cd6e9f73052a45694238418c99427bdc/transformed/appcompat-1.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d24023a715c3f7ebfd84c27d5474957f/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b30453def73a93b472342bde608c8c52/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3e79c24a7072d705fb4319a08e47ce67/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0dd85844daecb8a2314d12ba9e6c05b8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0b533b285e1b65e532fcf928f4203309/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/52c5af79f0e9147688dbe4be536e3147/transformed/jetified-appcompat-resources-1.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/99e9c30a27ed49dcd74c92bbcdef2b85/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/435c9605d0f85032bff45308601c9b85/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c32f06da8c99d3571078703d08c1830c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d509c551629da2fb840337bc3ef567bd/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3f6f919a8cfda5c78c90b167be6c30b5/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d47961bb2854770e959eda00aa7a590b/transformed/fragment-1.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/ea4a7d116c0b8014f8e78cb34b6dac83/transformed/jetified-activity-1.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8ce663d5e5b5fe1bf93f366793b400e2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/91b51e2f3f0b588ac83ad944b9c3f073/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a71f252a24f845d1303d7f6697bdffa8/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b535032f2cfed6943a4afd86112bb689/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/5ededfd0cc96d969c6b40e0dbafe25e6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c918624168d4fb7040de4e442de1c813/transformed/core-1.5.0-beta01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/f79f2cd99004c8328cd9aa6f4b5bf7fc/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/38d6fea3f6d76b2698dec932a9d25eba/transformed/lifecycle-runtime-2.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0156f2747fd226dc8e7305150ccd2b60/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/432492ed2c7f4b8fa5cb31f5eea60e9b/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3d066775cb1e454ff48c44c4bde7010a/transformed/jetified-savedstate-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d8e1d30c0d1a338d14d93158f7d01e9e/transformed/lifecycle-viewmodel-2.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bb5acddb2a17bc9fc2d3126e946a3843/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c6bcd45f5d29e305584165b18e48af20/transformed/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c0744f9dd9c7642f9076971211232336/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/4f431a49a7da75c445ab1a0696ad9463/transformed/lifecycle-livedata-core-2.3.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/e45b46f709f7ed63ddd0c5c8162298f2/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/9b9407d28b26b2ea5c99f23ccc279d9e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/fa8811b494c7cb36be27c2717ba9129e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/e6b4f56ab8d6f48df303444c6a1e0868/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c9945fc6d64c8f10a386c6aa3641cb75/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+	package
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:18:5-47
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:1-68:12
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:17:11-69
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:28:22-78
+application
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:30:5-67:19
+MERGED from [com.google.android.material:material:1.2.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bce47b76883d92c6f197500f78e33988/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bce47b76883d92c6f197500f78e33988/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0568fdc365387ef5ddce054d68bccbce/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0568fdc365387ef5ddce054d68bccbce/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d24023a715c3f7ebfd84c27d5474957f/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d24023a715c3f7ebfd84c27d5474957f/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b30453def73a93b472342bde608c8c52/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b30453def73a93b472342bde608c8c52/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d509c551629da2fb840337bc3ef567bd/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d509c551629da2fb840337bc3ef567bd/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3f6f919a8cfda5c78c90b167be6c30b5/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3f6f919a8cfda5c78c90b167be6c30b5/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c918624168d4fb7040de4e442de1c813/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c918624168d4fb7040de4e442de1c813/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/9b9407d28b26b2ea5c99f23ccc279d9e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/9b9407d28b26b2ea5c99f23ccc279d9e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c918624168d4fb7040de4e442de1c813/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:36:9-35
+	android:label
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:34:9-41
+	android:roundIcon
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:35:9-54
+	android:icon
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:33:9-43
+	android:allowBackup
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:37:9-55
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:31:9-72
+activity#com.android.example.sleepcodelab.MainActivity
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:39:19-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:43:27-74
+receiver#com.android.example.sleepcodelab.receiver.SleepReceiver
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:47:9-50:39
+	android:enabled
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:48:13-83
+receiver#com.android.example.sleepcodelab.receiver.BootReceiver
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:52:9-66:20
+	android:enabled
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:54:13-35
+	android:exported
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:55:13-36
+	android:permission
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:56:13-75
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:53:13-82
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.DEFAULT
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:57:13-65:29
+category#android.intent.category.DEFAULT
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:58:17-75
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:58:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:59:17-78
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:59:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:60:17-81
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:60:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:62:17-81
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:62:25-79
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:63:17-84
+	android:name
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:63:25-81
+uses-sdk
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+MERGED from [androidx.room:room-ktx:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/20918e4ae59748a07db0f67ccfc46791/transformed/jetified-room-ktx-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/20918e4ae59748a07db0f67ccfc46791/transformed/jetified-room-ktx-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a06be81b7d98fd5879194bac38e4d58d/transformed/jetified-activity-ktx-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a06be81b7d98fd5879194bac38e4d58d/transformed/jetified-activity-ktx-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0d691e40805b99b7d0aad8189be53dc8/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0d691e40805b99b7d0aad8189be53dc8/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0068ae321907772872a48942d01c722e/transformed/jetified-lifecycle-runtime-ktx-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0068ae321907772872a48942d01c722e/transformed/jetified-lifecycle-runtime-ktx-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b70c947703268f2ce5656e182f78add8/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b70c947703268f2ce5656e182f78add8/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-alpha06] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/2f4b540805b02794143ee2fdf1abf48c/transformed/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0-alpha06] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/2f4b540805b02794143ee2fdf1abf48c/transformed/jetified-datastore-preferences-1.0.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0-alpha06] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0-alpha06] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/4c96c2f8a87a4767b047d02c6bf73fcb/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/4c96c2f8a87a4767b047d02c6bf73fcb/transformed/jetified-viewbinding-7.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/5a03b4ceb0158bcfed6223eab008c9f1/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/5a03b4ceb0158bcfed6223eab008c9f1/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/90c6f152b805287b0b39ace95fbff871/transformed/jetified-savedstate-ktx-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/90c6f152b805287b0b39ace95fbff871/transformed/jetified-savedstate-ktx-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/53f95204574636e435e0edec2ca004b2/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/53f95204574636e435e0edec2ca004b2/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bce47b76883d92c6f197500f78e33988/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bce47b76883d92c6f197500f78e33988/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0568fdc365387ef5ddce054d68bccbce/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0568fdc365387ef5ddce054d68bccbce/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/cd6e9f73052a45694238418c99427bdc/transformed/appcompat-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/cd6e9f73052a45694238418c99427bdc/transformed/appcompat-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d24023a715c3f7ebfd84c27d5474957f/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d24023a715c3f7ebfd84c27d5474957f/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b30453def73a93b472342bde608c8c52/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b30453def73a93b472342bde608c8c52/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3e79c24a7072d705fb4319a08e47ce67/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3e79c24a7072d705fb4319a08e47ce67/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0dd85844daecb8a2314d12ba9e6c05b8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0dd85844daecb8a2314d12ba9e6c05b8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0b533b285e1b65e532fcf928f4203309/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0b533b285e1b65e532fcf928f4203309/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/52c5af79f0e9147688dbe4be536e3147/transformed/jetified-appcompat-resources-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/52c5af79f0e9147688dbe4be536e3147/transformed/jetified-appcompat-resources-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/99e9c30a27ed49dcd74c92bbcdef2b85/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/99e9c30a27ed49dcd74c92bbcdef2b85/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/435c9605d0f85032bff45308601c9b85/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/435c9605d0f85032bff45308601c9b85/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c32f06da8c99d3571078703d08c1830c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c32f06da8c99d3571078703d08c1830c/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d509c551629da2fb840337bc3ef567bd/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d509c551629da2fb840337bc3ef567bd/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3f6f919a8cfda5c78c90b167be6c30b5/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3f6f919a8cfda5c78c90b167be6c30b5/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d47961bb2854770e959eda00aa7a590b/transformed/fragment-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d47961bb2854770e959eda00aa7a590b/transformed/fragment-1.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/ea4a7d116c0b8014f8e78cb34b6dac83/transformed/jetified-activity-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/ea4a7d116c0b8014f8e78cb34b6dac83/transformed/jetified-activity-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8ce663d5e5b5fe1bf93f366793b400e2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8ce663d5e5b5fe1bf93f366793b400e2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/91b51e2f3f0b588ac83ad944b9c3f073/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/91b51e2f3f0b588ac83ad944b9c3f073/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a71f252a24f845d1303d7f6697bdffa8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a71f252a24f845d1303d7f6697bdffa8/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b535032f2cfed6943a4afd86112bb689/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/b535032f2cfed6943a4afd86112bb689/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/5ededfd0cc96d969c6b40e0dbafe25e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/5ededfd0cc96d969c6b40e0dbafe25e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c918624168d4fb7040de4e442de1c813/transformed/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c918624168d4fb7040de4e442de1c813/transformed/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/f79f2cd99004c8328cd9aa6f4b5bf7fc/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/f79f2cd99004c8328cd9aa6f4b5bf7fc/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/38d6fea3f6d76b2698dec932a9d25eba/transformed/lifecycle-runtime-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/38d6fea3f6d76b2698dec932a9d25eba/transformed/lifecycle-runtime-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0156f2747fd226dc8e7305150ccd2b60/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/0156f2747fd226dc8e7305150ccd2b60/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/432492ed2c7f4b8fa5cb31f5eea60e9b/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/432492ed2c7f4b8fa5cb31f5eea60e9b/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3d066775cb1e454ff48c44c4bde7010a/transformed/jetified-savedstate-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3d066775cb1e454ff48c44c4bde7010a/transformed/jetified-savedstate-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d8e1d30c0d1a338d14d93158f7d01e9e/transformed/lifecycle-viewmodel-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/d8e1d30c0d1a338d14d93158f7d01e9e/transformed/lifecycle-viewmodel-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bb5acddb2a17bc9fc2d3126e946a3843/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/bb5acddb2a17bc9fc2d3126e946a3843/transformed/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c6bcd45f5d29e305584165b18e48af20/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c6bcd45f5d29e305584165b18e48af20/transformed/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c0744f9dd9c7642f9076971211232336/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c0744f9dd9c7642f9076971211232336/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/4f431a49a7da75c445ab1a0696ad9463/transformed/lifecycle-livedata-core-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-rc01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/4f431a49a7da75c445ab1a0696ad9463/transformed/lifecycle-livedata-core-2.3.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/e45b46f709f7ed63ddd0c5c8162298f2/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/e45b46f709f7ed63ddd0c5c8162298f2/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/9b9407d28b26b2ea5c99f23ccc279d9e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/9b9407d28b26b2ea5c99f23ccc279d9e/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/fa8811b494c7cb36be27c2717ba9129e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/fa8811b494c7cb36be27c2717ba9129e/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/e6b4f56ab8d6f48df303444c6a1e0868/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/e6b4f56ab8d6f48df303444c6a1e0868/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c9945fc6d64c8f10a386c6aa3641cb75/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c9945fc6d64c8f10a386c6aa3641cb75/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+		ADDED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

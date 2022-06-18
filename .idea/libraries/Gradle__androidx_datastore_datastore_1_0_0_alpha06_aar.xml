@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.datastore:datastore:1.0.0-alpha06@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/52bf0e22d84352cceaf106754855ef02/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/73c243c2e5f9234e2e7e2ef9870f8346/transformed/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle/gradle-7.2/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle/gradle-7.2/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../../gradle/gradle-7.2/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d388fb0a2ead4888f23a698da10dd782/transformed/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../gradle/gradle-7.2/caches/modules-2/files-2.1/androidx.datastore/datastore/1.0.0-alpha06/7ebd4b543f7aa4ca7c65819ea03ccbc914ba7d1d/datastore-1.0.0-alpha06-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.datastore/datastore/1.0.0-alpha06/7ebd4b543f7aa4ca7c65819ea03ccbc914ba7d1d/datastore-1.0.0-alpha06-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

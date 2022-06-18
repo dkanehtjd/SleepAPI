@@ -48,6 +48,13 @@ class BootReceiver : BroadcastReceiver() {
 
         scope.launch {
             // TODO: Request Sleep API upon boot complete
+            val subscribedToSleepData = repository.subscribedToSleepDataFlow.first()
+            if (subscribedToSleepData) {
+                subscribeToSleepSegmentUpdates(
+                    context = context,
+                    pendingIntent = SleepReceiver.createSleepReceiverPendingIntent(context)
+                )
+            }
         }
     }
 

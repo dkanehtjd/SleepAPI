@@ -18,7 +18,12 @@ package com.android.example.sleepcodelab.data.db
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.android.example.sleepcodelab.receiver.Sleep
 import com.google.android.gms.location.SleepClassifyEvent
+import retrofit2.Call
+import retrofit2.http.Field
+import retrofit2.http.FormUrlEncoded
+import retrofit2.http.POST
 
 /**
  * Entity class (table version of the class) for [SleepClassifyEvent] which represents a sleep
@@ -40,7 +45,10 @@ data class SleepClassifyEventEntity(
 
     @ColumnInfo(name = "light")
     val light: Int
-) {
+)
+
+
+{
     companion object {
         fun from(sleepClassifyEvent: SleepClassifyEvent): SleepClassifyEventEntity {
             return SleepClassifyEventEntity(
@@ -52,3 +60,4 @@ data class SleepClassifyEventEntity(
         }
     }
 }
+

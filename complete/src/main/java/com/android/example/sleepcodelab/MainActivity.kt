@@ -31,10 +31,17 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.android.example.sleepcodelab.databinding.ActivityMainBinding
+import com.android.example.sleepcodelab.receiver.Sleep
 import com.android.example.sleepcodelab.receiver.SleepReceiver
+import com.android.example.sleepcodelab.receiver.SleepService
 import com.google.android.gms.location.ActivityRecognition
 import com.google.android.gms.location.SleepSegmentRequest
 import com.google.android.material.snackbar.Snackbar
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 import java.util.Calendar
 
 /**
@@ -70,6 +77,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -123,6 +131,7 @@ class MainActivity : AppCompatActivity() {
                 unsubscribeToSleepSegmentUpdates(applicationContext, sleepPendingIntent)
             } else {
                 subscribeToSleepSegmentUpdates(applicationContext, sleepPendingIntent)
+
             }
         } else {
             requestPermissionLauncher.launch(permission.ACTIVITY_RECOGNITION)

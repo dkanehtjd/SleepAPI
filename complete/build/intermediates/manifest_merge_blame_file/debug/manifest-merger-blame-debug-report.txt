@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2021 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.android.example.sleepsamplekotlin"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="29"
+23-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml
+25    <!--
+26    Usually for activity recognition, an app will need one specific permission in the manifest to
+27    support devices on 28 and below and another to support devices on 29 and above.
+28    However, because we recommend only using the Sleep APIs with 29 and above, we only need the one
+29    below.
+30    -->
+31    <!-- TODO: Add activity recognition and receive boot complete permissions. -->
+32    <!-- Required for 29+. -->
+33    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+33-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:27:5-79
+33-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:27:22-76
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:28:5-81
+34-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:28:22-78
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:29:5-66
+35-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:29:22-64
+36
+37    <application
+37-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:31:5-69:19
+38        android:name="com.android.example.sleepcodelab.MainApplication"
+38-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:32:9-72
+39        android:allowBackup="true"
+39-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:33:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.5.0-beta01] C:\Users\82107\.gradle\caches\transforms-3\c918624168d4fb7040de4e442de1c813\transformed\core-1.5.0-beta01\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:34:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:35:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:36:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:37:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.SleepSampleKotlin"
+48-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:39:9-55
+49        android:usesCleartextTraffic="true" >
+49-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:38:9-44
+50        <activity android:name="com.android.example.sleepcodelab.MainActivity" >
+50-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:41:9-47:20
+50-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:41:19-79
+51            <intent-filter>
+51-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:42:13-46:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:43:17-69
+52-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:43:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:45:17-77
+54-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:45:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <receiver
+58-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:49:9-52:39
+59            android:name="com.android.example.sleepcodelab.receiver.SleepReceiver"
+59-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:50:13-83
+60            android:enabled="true"
+60-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:51:13-35
+61            android:exported="true" />
+61-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:52:13-36
+62        <receiver
+62-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:54:9-68:20
+63            android:name="com.android.example.sleepcodelab.receiver.BootReceiver"
+63-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:55:13-82
+64            android:enabled="true"
+64-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:56:13-35
+65            android:exported="true"
+65-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:57:13-36
+66            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+66-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:58:13-75
+67            <intent-filter>
+67-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:59:13-67:29
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:60:17-75
+68-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:60:27-73
+69
+70                <action android:name="android.intent.action.BOOT_COMPLETED" />
+70-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:61:17-78
+70-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:61:25-76
+71                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+71-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:62:17-81
+71-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:62:25-79
+72                <!-- For HTC devices -->
+73                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+73-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:64:17-81
+73-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:64:25-79
+74                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+74-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:65:17-84
+74-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:65:25-81
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:60:17-75
+76-->C:\Users\82107\AndroidStudioProjects\android-sleep (3)\complete\src\main\AndroidManifest.xml:60:27-73
+77            </intent-filter>
+78        </receiver>
+79
+80        <service
+80-->[androidx.room:room-runtime:2.2.6] C:\Users\82107\.gradle\caches\transforms-3\19f30acbe099e222235e61406b1229a1\transformed\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.2.6] C:\Users\82107\.gradle\caches\transforms-3\19f30acbe099e222235e61406b1229a1\transformed\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.2.6] C:\Users\82107\.gradle\caches\transforms-3\19f30acbe099e222235e61406b1229a1\transformed\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.2.6] C:\Users\82107\.gradle\caches\transforms-3\19f30acbe099e222235e61406b1229a1\transformed\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\82107\.gradle\caches\transforms-3\a6fdac16d391b3d099381813ad31d2cb\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\82107\.gradle\caches\transforms-3\a6fdac16d391b3d099381813ad31d2cb\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\82107\.gradle\caches\transforms-3\a6fdac16d391b3d099381813ad31d2cb\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\82107\.gradle\caches\transforms-3\a6fdac16d391b3d099381813ad31d2cb\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\82107\.gradle\caches\transforms-3\8dc7cae2022521360ec81f672c2d7f61\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\82107\.gradle\caches\transforms-3\8dc7cae2022521360ec81f672c2d7f61\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\82107\.gradle\caches\transforms-3\8dc7cae2022521360ec81f672c2d7f61\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+93
+94        <provider
+94-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\82107\.gradle\caches\transforms-3\3b72a3c759792f0b82429099e82c6a50\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+95            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\82107\.gradle\caches\transforms-3\3b72a3c759792f0b82429099e82c6a50\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+96            android:authorities="com.android.example.sleepsamplekotlin.lifecycle-process"
+96-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\82107\.gradle\caches\transforms-3\3b72a3c759792f0b82429099e82c6a50\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+97            android:exported="false"
+97-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\82107\.gradle\caches\transforms-3\3b72a3c759792f0b82429099e82c6a50\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+98            android:multiprocess="true" />
+98-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\82107\.gradle\caches\transforms-3\3b72a3c759792f0b82429099e82c6a50\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+99    </application>
+100
+101</manifest>

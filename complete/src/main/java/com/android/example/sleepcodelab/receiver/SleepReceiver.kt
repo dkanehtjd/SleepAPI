@@ -20,6 +20,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
+import com.android.example.sleepcodelab.MainActivity
 import com.android.example.sleepcodelab.MainApplication
 import com.android.example.sleepcodelab.data.SleepRepository
 import com.android.example.sleepcodelab.data.db.SleepClassifyEventEntity
@@ -29,6 +30,11 @@ import com.google.android.gms.location.SleepSegmentEvent
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 /**
  * Saves Sleep Events to Database.
@@ -52,8 +58,30 @@ class SleepReceiver : BroadcastReceiver() {
         } else if (SleepClassifyEvent.hasEvents(intent)) {
             val sleepClassifyEvents: List<SleepClassifyEvent> =
                 SleepClassifyEvent.extractEvents(intent)
-            Log.d(TAG, "SleepClassifyEvent List: $sleepClassifyEvents")
+            Log.d(TAG, "SleepClassifyEvent List: $sleepClassifyEvents") //List형태로 수면 데이터 저장되어 있음
             addSleepClassifyEventsToDatabase(repository, sleepClassifyEvents)
+
+
+            //retrofit 기본 설정
+            var retrofit = Retrofit.Builder()
+                .baseUrl("http://172.30.41.98:8000/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+            var sleepService: SleepService = retrofit.create(SleepService::class.java)
+
+            //dataPost에 List<sleepClassifyEvent> 타입의 sleepClassifyEvents 넣기
+            var dataPost =
+
+            sleepService.requestSleep("", "", "").enqueue(object: Callback<Sleep> {
+                override fun onFailure(call: Call<Sleep>, t: Throwable) {
+                    Log.d(TAG, "Fail")
+                }
+
+                override fun onResponse(call: Call<Sleep>, response: Response<Sleep>) {
+                    Log.d(TAG, "Good")
+                }
+            })
+
         }
     }
 

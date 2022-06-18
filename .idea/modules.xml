@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sleep_Code_Lab.iml" filepath="$PROJECT_DIR$/.idea/modules/Sleep_Code_Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/complete/Sleep_Code_Lab.complete.iml" filepath="$PROJECT_DIR$/.idea/modules/complete/Sleep_Code_Lab.complete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/start/Sleep_Code_Lab.start.iml" filepath="$PROJECT_DIR$/.idea/modules/start/Sleep_Code_Lab.start.iml" />
+    </modules>
+  </component>
+</project>

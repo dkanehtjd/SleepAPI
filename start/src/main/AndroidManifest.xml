@@ -23,6 +23,9 @@
     below.
     -->
     <!-- TODO: Add activity recognition and receive boot complete permissions. -->
+    <!-- Required for 29+. -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:name="com.android.example.sleepcodelab.MainApplication"

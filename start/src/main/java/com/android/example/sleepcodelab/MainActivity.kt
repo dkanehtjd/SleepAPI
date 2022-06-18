@@ -112,10 +112,23 @@ class MainActivity : AppCompatActivity() {
         }
 
         // TODO: Create a PendingIntent for Sleep API events
+        sleepPendingIntent =
+            SleepReceiver.createSleepReceiverPendingIntent(context = applicationContext)
     }
 
     // TODO: Enable/Disable sleep tracking and ask for permissions if needed.
     fun onClickRequestSleepData(view: View) {
+        fun onClickRequestSleepData(view: View) {
+            if (activityRecognitionPermissionApproved()) {
+                if (subscribedToSleepData) {
+                    unsubscribeToSleepSegmentUpdates(applicationContext, sleepPendingIntent)
+                } else {
+                    subscribeToSleepSegmentUpdates(applicationContext, sleepPendingIntent)
+                }
+            } else {
+                requestPermissionLauncher.launch(permission.ACTIVITY_RECOGNITION)
+            }
+        }
     }
 
     // Permission is checked before this method is called.
@@ -123,6 +136,19 @@ class MainActivity : AppCompatActivity() {
     private fun subscribeToSleepSegmentUpdates(context: Context, pendingIntent: PendingIntent) {
         Log.d(TAG, "requestSleepSegmentUpdates()")
         // TODO: Request Sleep API updates
+        val task = ActivityRecognition.getClient(context).requestSleepSegmentUpdates(
+            pendingIntent,
+            // Registers for both SleepSegmentEvent and SleepClassifyEvent data.
+            SleepSegmentRequest.getDefaultSleepSegmentRequest()
+        )
+
+        task.addOnSuccessListener {
+            mainViewModel.updateSubscribedToSleepData(true)
+            Log.d(TAG, "Successfully subscribed to sleep data.")
+        }
+        task.addOnFailureListener { exception ->
+            Log.d(TAG, "Exception when subscribing to sleep data: $exception")
+        }
     }
 
     private fun unsubscribeToSleepSegmentUpdates(context: Context, pendingIntent: PendingIntent) {

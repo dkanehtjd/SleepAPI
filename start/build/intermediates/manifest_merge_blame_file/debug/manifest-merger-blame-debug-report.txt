@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2021 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.android.example.sleepsamplekotlin"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="29"
+23-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml
+25    <!--
+26    Usually for activity recognition, an app will need one specific permission in the manifest to
+27    support devices on 28 and below and another to support devices on 29 and above.
+28    However, because we recommend only using the Sleep APIs with 29 and above, we only need the one
+29    below.
+30    -->
+31    <!-- TODO: Add activity recognition and receive boot complete permissions. -->
+32    <!-- Required for 29+. -->
+33    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+33-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:27:5-79
+33-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:27:22-76
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:28:5-81
+34-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:28:22-78
+35
+36    <application
+36-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:30:5-67:19
+37        android:name="com.android.example.sleepcodelab.MainApplication"
+37-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:31:9-72
+38        android:allowBackup="true"
+38-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:32:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.5.0-beta01] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/c918624168d4fb7040de4e442de1c813/transformed/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:icon="@mipmap/ic_launcher"
+42-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:33:9-43
+43        android:label="@string/app_name"
+43-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:34:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:35:9-54
+45        android:supportsRtl="true"
+45-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:36:9-35
+46        android:theme="@style/Theme.SleepSampleKotlin" >
+46-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:37:9-55
+47        <activity android:name="com.android.example.sleepcodelab.MainActivity" >
+47-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:39:9-45:20
+47-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:39:19-79
+48            <intent-filter>
+48-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:40:13-44:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:41:17-69
+49-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:41:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:43:17-77
+51-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:43:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <receiver
+55-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:47:9-50:39
+56            android:name="com.android.example.sleepcodelab.receiver.SleepReceiver"
+56-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:48:13-83
+57            android:enabled="true"
+57-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:49:13-35
+58            android:exported="true" />
+58-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:50:13-36
+59        <receiver
+59-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:52:9-66:20
+60            android:name="com.android.example.sleepcodelab.receiver.BootReceiver"
+60-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:53:13-82
+61            android:enabled="true"
+61-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:54:13-35
+62            android:exported="true"
+62-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:55:13-36
+63            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+63-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:56:13-75
+64            <intent-filter>
+64-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:57:13-65:29
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:58:17-75
+65-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:58:27-73
+66
+67                <action android:name="android.intent.action.BOOT_COMPLETED" />
+67-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:59:17-78
+67-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:59:25-76
+68                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+68-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:60:17-81
+68-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:60:25-79
+69                <!-- For HTC devices -->
+70                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+70-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:62:17-81
+70-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:62:25-79
+71                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+71-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:63:17-84
+71-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:63:25-81
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:58:17-75
+73-->/Users/jeong-wonhyeong/Desktop/SleepAPI A_U emebed realReal/android-sleep/start/src/main/AndroidManifest.xml:58:27-73
+74            </intent-filter>
+75        </receiver>
+76
+77        <service
+77-->[androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.2.6] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/19f30acbe099e222235e61406b1229a1/transformed/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/a6fdac16d391b3d099381813ad31d2cb/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:17.5.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/8dc7cae2022521360ec81f672c2d7f61/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+90
+91        <provider
+91-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+92            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+93            android:authorities="com.android.example.sleepsamplekotlin.lifecycle-process"
+93-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+94            android:exported="false"
+94-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+95            android:multiprocess="true" />
+95-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/jeong-wonhyeong/.gradle/caches/transforms-3/3b72a3c759792f0b82429099e82c6a50/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+96    </application>
+97
+98</manifest>
